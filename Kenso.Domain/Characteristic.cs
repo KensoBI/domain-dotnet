@@ -5,7 +5,7 @@
         public long Id { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
-        public decimal Nominal { get; set; }
+        public decimal? Nominal { get; set; }
         public decimal? Usl { get; set; }
         public decimal? Lsl { get; set; }
         public decimal? UslWarn { get; set; }
