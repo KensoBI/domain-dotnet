@@ -6,10 +6,10 @@
         public long? ModelId { get; set; }
         public string? PartName { get; set; }
         public long? PartId { get; set; }
-        public string PartNumber { get; set; }
+        public string? PartNumber { get; set; }
         public string? FeatureName { get; set; }
         public long? FeatureId { get; set; }
-        public string CharacteristicName { get; set; }
+        public string? CharacteristicName { get; set; }
         public long? CharacteristicId { get; set; }
         public decimal? Nominal { get; set; }
         public decimal? Usl { get; set; }
